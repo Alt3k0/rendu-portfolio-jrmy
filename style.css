@@ -1346,6 +1346,11 @@ section:nth-child(even) {
 }
 
 /* panel content */
+
+#proof-content  {
+  margin-top: 60px ;
+}
+
 #proof-content header {
   display: flex;
   justify-content: space-between;
@@ -1357,8 +1362,8 @@ section:nth-child(even) {
 
 /* GRADIENT ANIMATED TITLE */
 #proof-title {
-  margin: 0;
-  font-size: var(--fs-h3);
+  margin: 30px 0px;
+  font-size: var(--fs-h2);
   flex: 1;
   min-width: 250px;
   font-weight: 700;
@@ -1384,7 +1389,7 @@ section:nth-child(even) {
 #proof-content section {
   display: flex;
     flex-direction: column;
-    padding: 3em 3em;
+    padding: 1.1em 3em 3em;
     gap: 1.5em;
     border-radius: 30px;
 }
