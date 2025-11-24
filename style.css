@@ -1381,7 +1381,7 @@ section:nth-child(even) {
   transform: translateX(4px);
 }
 
-#proof-content {
+#proof-content section {
   display: flex;
     flex-direction: column;
     padding: 3em 3em;
